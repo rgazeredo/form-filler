@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Filler</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="formFiller" class="container">
+      <h1>
+        <img src="icon.png" alt="Form Filler Icon" width="20" height="20" />
+        Form Filler
+      </h1>
+
+      <div class="form-selector">
+        <h3>Selecione o Formulário:</h3>
+        <select id="formSelect">
+          <option value="">Carregando...</option>
+        </select>
+      </div>
+
+      <div class="options-section" id="optionsSection" style="display: none">
+        <h3>Opções de Preenchimento</h3>
+
+        <div class="fill-options">
+          <button id="automatic" class="btn btn-success">Automático</button>
+          <button id="textOnly" class="btn btn-primary">Apenas Texto</button>
+
+          <button id="numbersOnly" class="btn btn-secondary">
+            Apenas Números
+          </button>
+        </div>
+
+        <div id="numberOptions" class="number-options" style="display: none">
+          <label>Quantidade de dígitos:</label>
+          <input type="number" id="digitCount" min="1" max="20" value="5" />
+        </div>
+      </div>
+
+      <div id="status" class="status"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

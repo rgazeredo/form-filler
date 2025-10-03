@@ -75,6 +75,7 @@ A extensão requer as seguintes permissões:
 ## 🔒 Privacidade
 
 Esta extensão:
+
 - ✅ Funciona apenas quando você clica no ícone
 - ✅ Não coleta ou envia dados para servidores externos
 - ✅ Não armazena informações pessoais
@@ -83,9 +84,6 @@ Esta extensão:
 ## 👨‍💻 Autor
 
 **Raphael Azeredo**
+
 - Email: rgazeredo@gmail.com
 - GitHub: [@rgazeredo](https://github.com/rgazeredo)
-
-## 📄 Licença
-
-Este projeto é de código aberto e está disponível para uso livre.
